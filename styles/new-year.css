@@ -1,0 +1,78 @@
+*{
+    margin : 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background-image: url('../images/banner/banner2.png');
+    position: absolute;
+    width: 1600px;
+    height: 809px;
+    top: 0px;
+   
+}
+/* banner style */
+.banner{
+    margin: 0 750px;
+    text-align: right;
+    color: #151414;  
+}
+.banner-discription{
+    color: #444343;
+    
+}
+.banner-sub-title{
+    margin-bottom: 24px;
+    color: #151414;  
+    position: absolute;
+
+}
+.banner-sub{
+    color: #151414;  
+    position: absolute;
+
+}
+.banner-title{
+    text-align: right;
+    position: absolute;
+
+}
+.banner-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    border: 0;
+    padding: 18px 35px;
+
+}
+/*main section*/
+main{
+   
+    left: 206px;
+    top: 939px;
+
+}
+/* previous year styles*/
+.year{
+   margin-top: 150px;
+
+}
+.section-title{
+
+    position: absolute;
+width: 288px;
+height: 94px;
+left: 862px;
+top: 1178px;
+}
+.section-description{
+    position: absolute;
+width: 416px;
+height: 104px;
+left: 862px;
+top: 1296px;
+
+}

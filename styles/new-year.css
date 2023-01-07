@@ -3,49 +3,52 @@
     font-family: 'Open Sans', sans-serif;
 }
 .header{
-    background-image: url('../images/banner/banner2.png');
-    position: absolute;
-    width: 1600px;
-    height: 809px;
-    top: 0px;
-   
+    
 }
 /* banner style */
 .banner{
-    margin: 0 750px;
+ 
+    background-image: url(../images/banner/banner1.png);
+    width: 1750px;
+    height: 800px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-size: cover;
     text-align: right;
-    color: #151414;  
+  
+   
 }
 .banner-discription{
-    color: #444343;
+    font-size: 16px;
+    color: #3d3b3b;
+    width: 494px;
+    margin: 0 500px 0 1000px;
+    padding: 10px 300px 25px 5px;
+    font-family: 'Poppins', sans-serif;
     
 }
-.banner-sub-title{
-    margin-bottom: 24px;
-    color: #151414;  
-    position: absolute;
-
-}
-.banner-sub{
-    color: #151414;  
-    position: absolute;
-
-}
 .banner-title{
-    text-align: right;
-    position: absolute;
+    color: rgb(19, 15, 15);
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    padding: 300px 200px 15px 0;
+    margin: 0 110px 0 982px;
+   
+     
 
 }
 .banner-primary{
-    border-radius: 5px;
-    background: #FD6E0A;
-    position: absolute;
-    width: 160px;
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
     height: 64px;
-    left: 1210px;
-    top: 578px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: orangered;
     border: 0;
-    padding: 18px 35px;
+    margin: 0 315px 0 1000px;
+    text-align: center;
 
 }
 /*main section*/
@@ -58,21 +61,104 @@ main{
 /* previous year styles*/
 .year{
    margin-top: 150px;
+   padding: 130px 150px;
 
 }
 .section-title{
-
-    position: absolute;
+text-align: center;
+position: absolute;
 width: 288px;
 height: 94px;
 left: 862px;
 top: 1178px;
 }
 .section-description{
-    position: absolute;
+ position: absolute;
 width: 416px;
 height: 104px;
 left: 862px;
 top: 1296px;
 
+}
+div{
+    display: block;
+}
+.skills-container{
+    display: flex;
+    gap:24px;
+}
+.my-skills{
+    margin-top: 130px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding:30px;
+}
+.sk-title{
+    text-align: center;
+
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+}
+/*gradient style*/
+.gradient{
+    background color: linear-gradient((90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);)
+}
+/* my plans style */
+.my-plans{
+    margin-top: 130px;
+}
+.plan-container{
+    display: flex;
+    gap: 100px;
+}
+.plan{
+    padding: 50px;
+}
+.plan-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+.plan-description{
+    color:#757575
+}
+/* subscribe style*/
+.subscribe-me .subscribe-title{
+    text-align: left;
+}
+.subscribe-me{
+    display: flex;
+    gap: 100px;
+    background: #151414;
+    color: #FFFFFF;
+    padding: 130px 130px;
+}
+.subscribe-title{
+   
+}
+.btn-primary{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #F15B22;
+}
+.subscribe-me input{
+    margin-bottom: 25px;
 }
